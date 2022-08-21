@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circumcircle of a Triangle Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="circumcircleRadiusRadio" name="variables" checked>
+  <label for="circumcircleRadiusRadio">Circumcircle Radius</label>
+
+  <input type="radio" id="circumcircleAreaRadio" name="variables">
+  <label for="circumcircleAreaRadio">Circumcircle Area</label>
+
+  <input type="radio" id="triangleAreaRadio" name="variables">
+  <label for="triangleAreaRadio">Triangle Area</label><br><br>
+  <!-- end radio -->
+  
+  <label for="a" id="variable1">Length of Triangle Side a</label>
+  <input type="number" id="a"><br><br>
+  
+  <label for="b" id="variable2">Length of Triangle Side b</label>
+  <input type="number" id="b"><br><br>
+  
+  <label for="c" id="variable3">Length of Triangle Side c</label>
+  <input type="number" id="c"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
